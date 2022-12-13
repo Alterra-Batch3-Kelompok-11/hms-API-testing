@@ -4,4 +4,9 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://ec2-18-142-246-127.ap-southeast-1.compute.amazonaws.com'</initValue>
+      <name>baseURL</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
