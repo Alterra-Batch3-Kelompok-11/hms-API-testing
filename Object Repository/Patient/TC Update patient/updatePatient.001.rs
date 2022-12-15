@@ -19,7 +19,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;Nik\&quot;: \&quot;11222334566\&quot;,\n  \&quot;Name\&quot;: \&quot;Johny\&quot;,\n  \&quot;Gender\&quot;: 2,\n  \&quot;Address\&quot;: \&quot;Bekasi\&quot;,\n  \&quot;phone\&quot; : \&quot;8131212324\&quot;,\n  \&quot;MaritalStatus\&quot;: 2,\n  \&quot;ReligionID\&quot;: 1,\n  \&quot;birth_date\&quot;: \&quot;2000-01-01T00:00:00.000Z\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;nik\&quot;: \&quot;12341234\&quot;,\n    \&quot;name\&quot;: \&quot;John Cena\&quot;,\n    \&quot;gender\&quot;: 1,\n    \&quot;address\&quot;: \&quot;Jakarta\&quot;,\n    \&quot;phone\&quot;: \&quot;0812121213\&quot;,\n    \&quot;marital_status\&quot;: false,\n    \&quot;birth_date\&quot;: \&quot;2000-01-01T00:00:00.000Z\&quot;,\n    \&quot;religion_id\&quot;: 1\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -44,7 +44,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>http://ec2-18-142-246-127.ap-southeast-1.compute.amazonaws.com/v1/doctors/1</restUrl>
+   <restUrl>http://ec2-18-142-246-127.ap-southeast-1.compute.amazonaws.com/v1/patients/1</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
