@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>patient.001</name>
+   <name>updatePatient.001</name>
    <tag></tag>
-   <elementGuidId>8e0645db-8092-4fa0-83e6-c5b59156e12c</elementGuidId>
+   <elementGuidId>a5146cd2-8d1d-4bc0-bf24-42256fa6cfde</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <authorizationRequest>
@@ -19,7 +19,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;Nik\&quot;: \&quot;1122234563344\&quot;,\n  \&quot;Name\&quot;: \&quot;John\&quot;,\n  \&quot;Gender\&quot;: 2,\n  \&quot;Address\&quot;: \&quot;Bekasi\&quot;,\n  \&quot;phone\&quot; : \&quot;81312122321\&quot;,\n  \&quot;MaritalStatus\&quot;: 2,\n  \&quot;ReligionID\&quot;: 1,\n  \&quot;birth_date\&quot;: \&quot;2000-01-01T00:00:00.000Z\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;Nik\&quot;: \&quot;11222334566\&quot;,\n  \&quot;Name\&quot;: \&quot;Johny\&quot;,\n  \&quot;Gender\&quot;: 2,\n  \&quot;Address\&quot;: \&quot;Bekasi\&quot;,\n  \&quot;phone\&quot; : \&quot;8131212324\&quot;,\n  \&quot;MaritalStatus\&quot;: 2,\n  \&quot;ReligionID\&quot;: 1,\n  \&quot;birth_date\&quot;: \&quot;2000-01-01T00:00:00.000Z\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -30,7 +30,7 @@
       <name>Content-Type</name>
       <type>Main</type>
       <value>application/json</value>
-      <webElementGuid>aa3d9877-4581-4a00-a9f6-8ad36f9cb8d8</webElementGuid>
+      <webElementGuid>5c8b5643-9e2c-4ac2-9002-5009e9bbe652</webElementGuid>
    </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
@@ -38,13 +38,13 @@
       <name>Authorization</name>
       <type>Main</type>
       <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzEwOTU0OTAsInJvbGVJZCI6MSwidXNlcklkIjoxLCJ1c2VybmFtZSI6ImFkbWluIn0.eRT9FRBAqfArHcwYy65NjeRlhFRRrJCouXnDIwqO04o</value>
-      <webElementGuid>9166fb70-3a3d-4d92-8338-d5647d7a5d1a</webElementGuid>
+      <webElementGuid>d4f535b2-a6d5-428c-9064-206bda4533bf</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.4.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>POST</restRequestMethod>
-   <restUrl>http://ec2-18-142-246-127.ap-southeast-1.compute.amazonaws.com/v1/patients</restUrl>
+   <restRequestMethod>PUT</restRequestMethod>
+   <restUrl>http://ec2-18-142-246-127.ap-southeast-1.compute.amazonaws.com/v1/doctors/1</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
