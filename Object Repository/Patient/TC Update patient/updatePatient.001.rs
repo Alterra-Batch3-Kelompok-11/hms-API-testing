@@ -10,7 +10,7 @@
       <authorizationInfo>
          <entry>
             <key>bearerToken</key>
-            <value>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzEwOTU0OTAsInJvbGVJZCI6MSwidXNlcklkIjoxLCJ1c2VybmFtZSI6ImFkbWluIn0.eRT9FRBAqfArHcwYy65NjeRlhFRRrJCouXnDIwqO04o</value>
+            <value>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzEzODc3MDAsInJvbGVJZCI6MSwidXNlcklkIjoxLCJ1c2VybmFtZSI6ImFkbWluIn0.TUfxVbVaDeAnN7kIx1RreC4mQiFfb6l18ixpg-wNxU0</value>
          </entry>
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
@@ -19,7 +19,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;nik\&quot;: \&quot;12341234\&quot;,\n    \&quot;name\&quot;: \&quot;John Cena\&quot;,\n    \&quot;gender\&quot;: 1,\n    \&quot;address\&quot;: \&quot;Jakarta\&quot;,\n    \&quot;phone\&quot;: \&quot;0812121213\&quot;,\n    \&quot;marital_status\&quot;: false,\n    \&quot;birth_date\&quot;: \&quot;2000-01-01T00:00:00.000Z\&quot;,\n    \&quot;religion_id\&quot;: 1\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;nik\&quot;: \&quot;1234409883\&quot;,\n  \&quot;name\&quot;: \&quot;Doni Salman\&quot;,\n  \&quot;gender\&quot;: 1,\n  \&quot;address\&quot;: \&quot;Jakarta\&quot;,\n  \&quot;phone\&quot;: \&quot;0812121245\&quot;,\n  \&quot;marital_status\&quot;: false,\n  \&quot;birth_date\&quot;: \&quot;30-11-1997\&quot;,\n  \&quot;religion_id\&quot;: 1\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -37,8 +37,8 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzEwOTU0OTAsInJvbGVJZCI6MSwidXNlcklkIjoxLCJ1c2VybmFtZSI6ImFkbWluIn0.eRT9FRBAqfArHcwYy65NjeRlhFRRrJCouXnDIwqO04o</value>
-      <webElementGuid>d4f535b2-a6d5-428c-9064-206bda4533bf</webElementGuid>
+      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzEzODc3MDAsInJvbGVJZCI6MSwidXNlcklkIjoxLCJ1c2VybmFtZSI6ImFkbWluIn0.TUfxVbVaDeAnN7kIx1RreC4mQiFfb6l18ixpg-wNxU0</value>
+      <webElementGuid>d1a10aea-0ae8-409e-8759-03e1ed6e971e</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.4.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>

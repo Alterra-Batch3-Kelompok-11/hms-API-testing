@@ -6,12 +6,32 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzEzODM1NjQsInJvbGVJZCI6MSwidXNlcklkIjoxLCJ1c2VybmFtZSI6ImFkbWluIn0.guMf3LDzraFOh66Ahtx8VANWo79VqHusqc7JjJRGcxI'</initValue>
+      <name>token</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'http://ec2-18-142-246-127.ap-southeast-1.compute.amazonaws.com'</initValue>
       <name>baseURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzEwODAwNTIsInJvbGVJZCI6MSwidXNlcklkIjoxLCJ1c2VybmFtZSI6ImFkbWluIn0.yKxxLm8TSkUILyrUY7U06kCxZF5lqGaeYsUe9GuZlns'</initValue>
-      <name>token</name>
+      <initValue>200</initValue>
+      <name>statusCode200</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>400</initValue>
+      <name>StatusCode400</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>404</initValue>
+      <name>statusCode404</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>405</initValue>
+      <name>statusCode405</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

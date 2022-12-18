@@ -10,7 +10,7 @@
       <authorizationInfo>
          <entry>
             <key>bearerToken</key>
-            <value>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzA5Mjk4MDcsInJvbGVJZCI6MSwidXNlcklkIjoxLCJ1c2VybmFtZSI6ImFkbWluIn0._xp1iSDCmEy8BTIbAPDO80ETH_S44XH3gpFcGfAXs0s</value>
+            <value>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzEzODM1NjQsInJvbGVJZCI6MSwidXNlcklkIjoxLCJ1c2VybmFtZSI6ImFkbWluIn0.guMf3LDzraFOh66Ahtx8VANWo79VqHusqc7JjJRGcxI</value>
          </entry>
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
@@ -19,7 +19,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;Nik\&quot;: \&quot;123412345\&quot;,\n  \&quot;Name\&quot;: \&quot;John Doe john\&quot;,\n  \&quot;Gender\&quot;: 2,\n  \&quot;Address\&quot;: \&quot;Bekasi\&quot;,\n  \&quot;MaritalStatus\&quot;: 2,\n  \&quot;ReligionID\&quot;: 2,\n  \&quot;StatusID\&quot;: 2\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;nik\&quot;: \&quot;\&quot;,\n  \&quot;name\&quot;: \&quot;ani\&quot;,\n  \&quot;gender\&quot;: 1,\n  \&quot;address\&quot;: \&quot;Jakarta\&quot;,\n  \&quot;phone\&quot;: \&quot;0812121345\&quot;,\n  \&quot;marital_status\&quot;: false,\n  \&quot;birth_date\&quot;: \&quot;30-11-1991\&quot;,\n  \&quot;religion_id\&quot;: 1\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -37,8 +37,8 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzA5Mjk4MDcsInJvbGVJZCI6MSwidXNlcklkIjoxLCJ1c2VybmFtZSI6ImFkbWluIn0._xp1iSDCmEy8BTIbAPDO80ETH_S44XH3gpFcGfAXs0s</value>
-      <webElementGuid>017c3729-6f7e-435c-8248-84b8a1bbb1ca</webElementGuid>
+      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzEzODM1NjQsInJvbGVJZCI6MSwidXNlcklkIjoxLCJ1c2VybmFtZSI6ImFkbWluIn0.guMf3LDzraFOh66Ahtx8VANWo79VqHusqc7JjJRGcxI</value>
+      <webElementGuid>370b5c91-f03b-4755-9278-cdf546372d7d</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.4.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
