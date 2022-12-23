@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "8B81EBD95FD1DA4FF9765E1CE107FA25",
+  "keywordClasses": [
+    {
+      "name": "hms.patientConditionID",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": false
+}

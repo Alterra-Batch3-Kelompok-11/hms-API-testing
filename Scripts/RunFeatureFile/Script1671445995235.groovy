@@ -47,3 +47,11 @@ CucumberKW.runFeatureFile('Include/features/Outpatient Session/updateOutpatientS
 
 CucumberKW.runFeatureFile('Include/features/Outpatient Session/deleteOutpatientSession.feature')
 
+CucumberKW.runFeatureFile('Include/features/Dashboard/dashboardWeb.feature')
+
+CucumberKW.runFeatureFile('Include/features/Dashboard/dashboardMobile.feature')
+
+CucumberKW.runFeatureFile('Include/features/Patient Condition/insertCondition.feature')
+
+CucumberKW.runFeatureFile('Include/features/Patient Condition/patientConditionID.feature')
+

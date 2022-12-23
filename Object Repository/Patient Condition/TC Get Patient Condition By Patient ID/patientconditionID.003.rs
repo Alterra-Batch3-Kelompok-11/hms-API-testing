@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>dashboardmobile.004</name>
+   <name>patientconditionID.003</name>
    <tag></tag>
-   <elementGuidId>c5a05ee3-35fc-442e-9123-6b4b1639a35d</elementGuidId>
+   <elementGuidId>c66430e9-3743-4745-bd53-db69c161bf3f</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>
@@ -15,7 +15,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>http://ec2-18-142-246-127.ap-southeast-1.compute.amazonaws.com/v1/dashboard/mobile/doctor/1</restUrl>
+   <restUrl>http://ec2-18-142-246-127.ap-southeast-1.compute.amazonaws.com/v1/patient_conditions/patient/a</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
