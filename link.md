@@ -15,3 +15,6 @@ https://docs.google.com/document/d/1myp-7a1hT2nz5awPDMIGE5-e8b3BiQIA/edit?usp=sh
 
 Link Swagger:
 http://ec2-18-142-246-127.ap-southeast-1.compute.amazonaws.com/swagger/index.html#/
+
+Link Report API Testing:
+https://drive.google.com/file/d/1oJWOIFucNojfSdjKX1fKhwKhipe-zXpy/view?usp=share_link
