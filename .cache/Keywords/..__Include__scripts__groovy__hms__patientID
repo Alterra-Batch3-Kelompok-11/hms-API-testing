@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "F4E044DE13EC4954797767D7888D4412",
+  "keywordFileContentHash": "CBD6DC9EB729D29CC9A3AEB030707468",
   "keywordClasses": [
     {
       "name": "hms.patientID",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

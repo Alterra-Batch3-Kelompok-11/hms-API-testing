@@ -1,4 +1,3 @@
-
 package hms
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -45,75 +44,75 @@ import cucumber.api.java.en.When
 
 
 
-class patientID {
+class doctorID {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-	// TC.PatientId.001
-	@Given("User Set method to GET C1")
-	def setValidC1() {
+	// TC.doctorId.001
+	@Given("User Set method to GET H1")
+	def setValidH1() {
 		println ("Set method GET")
 	}
 
-	@When("User Set URL http://ec2-18-142-246-127.ap-southeast-1.compute.amazonaws.com/v1/patients C1")
-	def setValidURLC1() {
-		println ("http://ec2-18-142-246-127.ap-southeast-1.compute.amazonaws.com/v1/patients")
-		response = WS.sendRequest(findTestObject('Patient/TC Get Patient By ID/patientID.001'))
+	@When("User Set URL http://eH2-18-142-246-127.ap-southeast-1.compute.amazonaws.com/v1/doctors H1")
+	def setValidURLH1() {
+		println ("http://eH2-18-142-246-127.ap-southeast-1.compute.amazonaws.com/v1/doctors")
+		response = WS.sendRequest(findTestObject('doctor/TC Get doctor By ID/doctorID.001'))
 	}
 
-	@And("User click button test Request C1")
-	def clickButtonC1() {
+	@And("User click button test Request H1")
+	def clickButtonH1() {
 		println ("User click button test Request")
 	}
 
-	@Then("Show the verify result 200 OK C1")
-	def verifystatusCodeC1() {
+	@Then("Show the verify result 200 OK H1")
+	def verifystatusCodeH1() {
 		println ("Show the verify result 200 OK")
 		WS.verifyResponseStatusCode(response, GlobalVariable.statusCode200)
 	}
 
-	// TC.PatientId.002
-	@Given("User Set method to GET C2")
-	def setValidC2() {
+	// TC.doctorId.002
+	@Given("User Set method to GET H2")
+	def setValidH2() {
 		println ("Set method GET")
 	}
 
-	@When("User Set URL http://ec2-18-142-246-127.ap-southeast-1.compute.amazonaws.com/v1/patients C2")
-	def setValidURLC2() {
-		println ("http://ec2-18-142-246-127.ap-southeast-1.compute.amazonaws.com/v1/patients")
-		response = WS.sendRequest(findTestObject('Patient/TC Get Patient By ID/patientID.002'))
+	@When("User Set URL http://eH2-18-142-246-127.ap-southeast-1.compute.amazonaws.com/v1/doctors H2")
+	def setValidURLH2() {
+		println ("http://eH2-18-142-246-127.ap-southeast-1.compute.amazonaws.com/v1/doctors")
+		response = WS.sendRequest(findTestObject('doctor/TC Get doctor By ID/doctorID.002'))
 	}
 
-	@And("User click button test Request C2")
-	def clickButtonC2() {
+	@And("User click button test Request H2")
+	def clickButtonH2() {
 		println ("User click button test Request")
 	}
 
-	@Then("Show the verify result 405 Method Not Allowed C2")
-	def verifystatusCodeC2() {
+	@Then("Show the verify result 405 Method Not Allowed H2")
+	def verifystatusCodeH2() {
 		println ("Show the verify result 405 Method Not Allowed")
 		WS.verifyResponseStatusCode(response, GlobalVariable.statusCode405)
 	}
 
-	// TC.PatientId.003
-	@Given("User Set method to GET C3")
-	def setValidC3() {
+	// TC.doctorId.003
+	@Given("User Set method to GET H3")
+	def setValidH3() {
 		println ("Set method GET")
 	}
 
-	@When("User Set URL http://ec2-18-142-246-127.ap-southeast-1.compute.amazonaws.com/v1/patients C3")
-	def setValidURLC3() {
-		println ("http://ec2-18-142-246-127.ap-southeast-1.compute.amazonaws.com/v1/patients")
-		response = WS.sendRequest(findTestObject('Patient/TC Get Patient By ID/patientID.003'))
+	@When("User Set URL http://eH2-18-142-246-127.ap-southeast-1.compute.amazonaws.com/v1/doctors H3")
+	def setValidURLH3() {
+		println ("http://eH2-18-142-246-127.ap-southeast-1.compute.amazonaws.com/v1/doctors")
+		response = WS.sendRequest(findTestObject('doctor/TC Get doctor By ID/doctorID.003'))
 	}
 
-	@And("User click button test Request C3")
-	def clickButtonC3() {
+	@And("User click button test Request H3")
+	def clickButtonH3() {
 		println ("User click button test Request")
 	}
 
-	@Then("Show the verify result 400 Bad Request C3")
-	def verifystatusCodeC3() {
+	@Then("Show the verify result 400 Bad Request H3")
+	def verifystatusCodeH3() {
 		println ("Show the verify result 400 Bad Request")
 		WS.verifyResponseStatusCode(response, GlobalVariable.statusCode400)
 	}

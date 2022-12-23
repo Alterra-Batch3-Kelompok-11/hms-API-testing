@@ -1,4 +1,3 @@
-
 package hms
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -45,75 +44,98 @@ import cucumber.api.java.en.When
 
 
 
-class patientID {
+class deleteDoctor {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-	// TC.PatientId.001
-	@Given("User Set method to GET C1")
-	def setValidC1() {
-		println ("Set method GET")
+	// TC.deletedoctor.001
+	@Given("User Set method to DELETE J1")
+	def setValidJ1() {
+		println ("Set method DELETE")
 	}
 
-	@When("User Set URL http://ec2-18-142-246-127.ap-southeast-1.compute.amazonaws.com/v1/patients C1")
-	def setValidURLC1() {
-		println ("http://ec2-18-142-246-127.ap-southeast-1.compute.amazonaws.com/v1/patients")
-		response = WS.sendRequest(findTestObject('Patient/TC Get Patient By ID/patientID.001'))
+	@When("User Set URL http://ec2-18-142-246-127.ap-southeast-1.compute.amazonaws.com/v1/doctors/1 J1")
+	def setValidURLJ1() {
+		println ("http://ec2-18-142-246-127.ap-southeast-1.compute.amazonaws.com/v1/doctors/1")
+		response = WS.sendRequest(findTestObject('Patient/TC Delete Patient/deletedoctor.001'))
 	}
 
-	@And("User click button test Request C1")
-	def clickButtonC1() {
+	@And("User click button test Request J1")
+	def clickButtonJ1() {
 		println ("User click button test Request")
 	}
 
-	@Then("Show the verify result 200 OK C1")
-	def verifystatusCodeC1() {
+	@Then("Show the verify result 200 OK J1")
+	def verifystatusCodeJ1() {
 		println ("Show the verify result 200 OK")
 		WS.verifyResponseStatusCode(response, GlobalVariable.statusCode200)
 	}
 
-	// TC.PatientId.002
-	@Given("User Set method to GET C2")
-	def setValidC2() {
-		println ("Set method GET")
+	// TC.deletedoctor.002
+	@Given("User Set method to POST J2")
+	def setValidJ2() {
+		println ("Set method POST")
 	}
 
-	@When("User Set URL http://ec2-18-142-246-127.ap-southeast-1.compute.amazonaws.com/v1/patients C2")
-	def setValidURLC2() {
-		println ("http://ec2-18-142-246-127.ap-southeast-1.compute.amazonaws.com/v1/patients")
-		response = WS.sendRequest(findTestObject('Patient/TC Get Patient By ID/patientID.002'))
+	@When("User Set URL http://ec2-18-142-246-127.ap-southeast-1.compute.amazonaws.com/v1/doctors/1 J2")
+	def setValidURLJ2() {
+		println ("http://ec2-18-142-246-127.ap-southeast-1.compute.amazonaws.com/v1/doctors/1")
+		response = WS.sendRequest(findTestObject('Patient/TC Delete Patient/deletedoctor.002'))
 	}
 
-	@And("User click button test Request C2")
-	def clickButtonC2() {
+	@And("User click button test Request J2")
+	def clickButtonJ2() {
 		println ("User click button test Request")
 	}
 
-	@Then("Show the verify result 405 Method Not Allowed C2")
-	def verifystatusCodeC2() {
+	@Then("Show the verify result 405 Method Not Allowed J2")
+	def verifystatusCodeJ2() {
 		println ("Show the verify result 405 Method Not Allowed")
 		WS.verifyResponseStatusCode(response, GlobalVariable.statusCode405)
 	}
 
-	// TC.PatientId.003
-	@Given("User Set method to GET C3")
-	def setValidC3() {
-		println ("Set method GET")
+	// TC.deletedoctor.003
+	@Given("User Set method to DELETE J3")
+	def setValidJ3() {
+		println ("Set method DELETE")
 	}
 
-	@When("User Set URL http://ec2-18-142-246-127.ap-southeast-1.compute.amazonaws.com/v1/patients C3")
-	def setValidURLC3() {
-		println ("http://ec2-18-142-246-127.ap-southeast-1.compute.amazonaws.com/v1/patients")
-		response = WS.sendRequest(findTestObject('Patient/TC Get Patient By ID/patientID.003'))
+	@When("User Set URL http://ec2-18-142-246-127.ap-southeast-1.compute.amazonaws.com/v1/doctors/1 J3")
+	def setValidURLJ3() {
+		println ("http://ec2-18-142-246-127.ap-southeast-1.compute.amazonaws.com/v1/doctors/1")
+		response = WS.sendRequest(findTestObject('Patient/TC Delete Patient/deletedoctor.003'))
 	}
 
-	@And("User click button test Request C3")
-	def clickButtonC3() {
+	@And("User click button test Request J3")
+	def clickButtonJ3() {
 		println ("User click button test Request")
 	}
 
-	@Then("Show the verify result 400 Bad Request C3")
-	def verifystatusCodeC3() {
+	@Then("Show the verify result 400 Bad Request J3")
+	def verifystatusCodeJ3() {
+		println ("Show the verify result 400 Bad Request")
+		WS.verifyResponseStatusCode(response, GlobalVariable.statusCode400)
+	}
+
+	// TC.deletedoctor.004
+	@Given("User Set method to DELETE J4")
+	def setValidJ4() {
+		println ("Set method DELETE")
+	}
+
+	@When("User Set URL http://ec2-18-142-246-127.ap-southeast-1.compute.amazonaws.com/v1/doctors/1 J4")
+	def setValidURLJ4() {
+		println ("http://ec2-18-142-246-127.ap-southeast-1.compute.amazonaws.com/v1/doctors/1")
+		response = WS.sendRequest(findTestObject('Patient/TC Delete Patient/deletedoctor.004'))
+	}
+
+	@And("User click button test Request J4")
+	def clickButtonJ4() {
+		println ("User click button test Request")
+	}
+
+	@Then("Show the verify result 400 Bad Request J4")
+	def verifystatusCodeJ4() {
 		println ("Show the verify result 400 Bad Request")
 		WS.verifyResponseStatusCode(response, GlobalVariable.statusCode400)
 	}

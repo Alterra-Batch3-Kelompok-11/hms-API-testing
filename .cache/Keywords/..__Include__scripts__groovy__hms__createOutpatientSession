@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "C0A347C3804EB0C9BDE81A306C08911E",
+  "keywordClasses": [
+    {
+      "name": "hms.createOutpatientSession",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

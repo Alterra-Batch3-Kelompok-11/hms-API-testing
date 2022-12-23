@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "635483914B1C615DB68B41BD6916320E",
+  "keywordFileContentHash": "A43E3EA92887ADD5E89ED948D094D09A",
   "keywordClasses": [
     {
       "name": "hms.updatePatient",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

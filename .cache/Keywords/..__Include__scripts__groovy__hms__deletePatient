@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "55830614CD6B378627950AA0A09929E2",
+  "keywordFileContentHash": "DC804641A6B0BE750C58005E9FE51511",
   "keywordClasses": [
     {
       "name": "hms.deletePatient",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

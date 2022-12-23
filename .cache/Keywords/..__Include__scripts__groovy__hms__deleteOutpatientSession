@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "A416F667AD529B227A086446014B1DA2",
+  "keywordClasses": [
+    {
+      "name": "hms.deleteOutpatientSession",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

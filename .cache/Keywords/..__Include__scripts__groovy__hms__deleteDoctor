@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "9B355CA23CDC0B5545C4CA0A7789BED8",
+  "keywordClasses": [
+    {
+      "name": "hms.deleteDoctor",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

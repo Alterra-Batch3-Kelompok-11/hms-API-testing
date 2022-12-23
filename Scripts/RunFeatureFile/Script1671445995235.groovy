@@ -25,5 +25,25 @@ CucumberKW.runFeatureFile('Include/features/Patient/patientID.feature')
 
 CucumberKW.runFeatureFile('Include/features/Patient/updatePatient.feature')
 
-CucumberKW.runFeatureFile('Include/features/Patient/deleteFeature.feature')
+CucumberKW.runFeatureFile('Include/features/Patient/deletePatient.feature')
+
+CucumberKW.runFeatureFile('Include/features/Doctor/createDoctor.feature')
+
+CucumberKW.runFeatureFile('Include/features/Doctor/allDoctor.feature')
+
+CucumberKW.runFeatureFile('Include/features/Doctor/doctorID.feature')
+
+CucumberKW.runFeatureFile('Include/features/Doctor/updateDoctor.feature')
+
+CucumberKW.runFeatureFile('Include/features/Doctor/deleteDoctor.feature')
+
+CucumberKW.runFeatureFile('Include/features/Outpatient Session/createoutpatientsessions.feature')
+
+CucumberKW.runFeatureFile('Include/features/Outpatient Session/allOutpatientSession.feature')
+
+CucumberKW.runFeatureFile('Include/features/Outpatient Session/outpatientsessionID.feature')
+
+CucumberKW.runFeatureFile('Include/features/Outpatient Session/updateOutpatientSession.feature')
+
+CucumberKW.runFeatureFile('Include/features/Outpatient Session/deleteOutpatientSession.feature')
 

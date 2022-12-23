@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "60A55B4AD45C724258AFF4BA0404CE0B",
+  "keywordClasses": [
+    {
+      "name": "hms.updateOutpatientSession",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

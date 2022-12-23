@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "B2E084AB6527E0796C3832DAB8C1F68A",
+  "keywordFileContentHash": "69087B321D302694452585872D13CDDD",
   "keywordClasses": [
     {
       "name": "hms.createPatient",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

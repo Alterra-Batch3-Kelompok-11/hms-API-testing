@@ -1,4 +1,3 @@
-
 package hms
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -45,76 +44,53 @@ import cucumber.api.java.en.When
 
 
 
-class patientID {
+class allDoctor {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-	// TC.PatientId.001
-	@Given("User Set method to GET C1")
-	def setValidC1() {
+	// TC.alldoctor.001
+	@Given("User Set method to GET G1")
+	def setValidG1() {
 		println ("Set method GET")
 	}
 
-	@When("User Set URL http://ec2-18-142-246-127.ap-southeast-1.compute.amazonaws.com/v1/patients C1")
-	def setValidURLC1() {
-		println ("http://ec2-18-142-246-127.ap-southeast-1.compute.amazonaws.com/v1/patients")
-		response = WS.sendRequest(findTestObject('Patient/TC Get Patient By ID/patientID.001'))
+	@When("User Set URL http://ec2-18-142-246-127.ap-southeast-1.compute.amazonaws.com/v1/doctors G1")
+	def setValidURLG1() {
+		println ("http://ec2-18-142-246-127.ap-southeast-1.compute.amazonaws.com/v1/doctors")
+		response = WS.sendRequest(findTestObject('doctor/TC Get All doctor/alldoctor.001'))
 	}
 
-	@And("User click button test Request C1")
-	def clickButtonC1() {
+	@And("User click button test Request G1")
+	def clickButtonG1() {
 		println ("User click button test Request")
 	}
 
-	@Then("Show the verify result 200 OK C1")
-	def verifystatusCodeC1() {
+	@Then("Show the verify result 200 OK G1")
+	def verifystatusCodeG1() {
 		println ("Show the verify result 200 OK")
 		WS.verifyResponseStatusCode(response, GlobalVariable.statusCode200)
 	}
 
-	// TC.PatientId.002
-	@Given("User Set method to GET C2")
-	def setValidC2() {
+	// TC.alldoctor.002
+	@Given("User Set method to GET G2")
+	def setValidG2() {
 		println ("Set method GET")
 	}
 
-	@When("User Set URL http://ec2-18-142-246-127.ap-southeast-1.compute.amazonaws.com/v1/patients C2")
-	def setValidURLC2() {
-		println ("http://ec2-18-142-246-127.ap-southeast-1.compute.amazonaws.com/v1/patients")
-		response = WS.sendRequest(findTestObject('Patient/TC Get Patient By ID/patientID.002'))
+	@When("User Set URL http://ec2-18-142-246-127.ap-southeast-1.compute.amazonaws.com/v1/doctors G2")
+	def setValidURLG2() {
+		println ("http://ec2-18-142-246-127.ap-southeast-1.compute.amazonaws.com/v1/doctors")
+		response = WS.sendRequest(findTestObject('doctor/TC Get All doctor/alldoctor.002'))
 	}
 
-	@And("User click button test Request C2")
-	def clickButtonC2() {
+	@And("User click button test Request G2")
+	def clickButtonG2() {
 		println ("User click button test Request")
 	}
 
-	@Then("Show the verify result 405 Method Not Allowed C2")
-	def verifystatusCodeC2() {
+	@Then("Show the verify result 405 Method Not Allowed G2")
+	def verifystatusCodeG2() {
 		println ("Show the verify result 405 Method Not Allowed")
 		WS.verifyResponseStatusCode(response, GlobalVariable.statusCode405)
-	}
-
-	// TC.PatientId.003
-	@Given("User Set method to GET C3")
-	def setValidC3() {
-		println ("Set method GET")
-	}
-
-	@When("User Set URL http://ec2-18-142-246-127.ap-southeast-1.compute.amazonaws.com/v1/patients C3")
-	def setValidURLC3() {
-		println ("http://ec2-18-142-246-127.ap-southeast-1.compute.amazonaws.com/v1/patients")
-		response = WS.sendRequest(findTestObject('Patient/TC Get Patient By ID/patientID.003'))
-	}
-
-	@And("User click button test Request C3")
-	def clickButtonC3() {
-		println ("User click button test Request")
-	}
-
-	@Then("Show the verify result 400 Bad Request C3")
-	def verifystatusCodeC3() {
-		println ("Show the verify result 400 Bad Request")
-		WS.verifyResponseStatusCode(response, GlobalVariable.statusCode400)
 	}
 }
